@@ -1,0 +1,14 @@
+{
+  "riggbyApp": {
+    "TargetGroup": {
+      "null": "",
+      "ADMIN": "ADMIN",
+      "DEVELOPER": "DEVELOPER",
+      "ACCOUNTANT": "ACCOUNTANT",
+      "NETWORK": "NETWORK",
+      "RECEPTION": "RECEPTION",
+      "KITCHEN": "KITCHEN",
+      "ALL": "ALL"
+    }
+  }
+}

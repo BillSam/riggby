@@ -1,0 +1,27 @@
+{
+  "riggbyApp": {
+    "morningSessions": {
+      "home": {
+        "title": "Morning Sessions",
+        "createLabel": "Create a new Morning Sessions",
+        "createOrEditLabel": "Create or edit a Morning Sessions"
+      },
+      "created": "A new Morning Sessions is created with identifier {{ param }}",
+      "updated": "A Morning Sessions is updated with identifier {{ param }}",
+      "deleted": "A Morning Sessions is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Morning Sessions {{ id }}?"
+      },
+      "detail": {
+        "title": "Morning Sessions"
+      },
+      "title": "Title",
+      "quote": "Quote",
+      "verse": "Verse",
+      "body": "Body",
+      "createdBy": "Created By",
+      "image": "Image",
+      "assignment": "Assignment"
+    }
+  }
+}

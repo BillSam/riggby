@@ -1,0 +1,31 @@
+{
+  "riggbyApp": {
+    "event": {
+      "home": {
+        "title": "Events",
+        "createLabel": "Create a new Event",
+        "createOrEditLabel": "Create or edit a Event"
+      },
+      "created": "A new Event is created with identifier {{ param }}",
+      "updated": "A Event is updated with identifier {{ param }}",
+      "deleted": "A Event is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Event {{ id }}?"
+      },
+      "detail": {
+        "title": "Event"
+      },
+      "title": "Title",
+      "description": "Description",
+      "dueDate": "Due Date",
+      "eventCategory": "Event Category",
+      "status": "Status",
+      "createdBy": "Created By",
+      "createdAt": "Created At",
+      "image": "Image",
+      "targetGroup": "Target Group",
+      "event": "Event",
+      "comment": "Comment"
+    }
+  }
+}

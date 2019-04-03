@@ -1,0 +1,31 @@
+{
+  "riggbyApp": {
+    "assignment": {
+      "home": {
+        "title": "Assignments",
+        "createLabel": "Create a new Assignment",
+        "createOrEditLabel": "Create or edit a Assignment"
+      },
+      "created": "A new Assignment is created with identifier {{ param }}",
+      "updated": "A Assignment is updated with identifier {{ param }}",
+      "deleted": "A Assignment is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Assignment {{ id }}?"
+      },
+      "detail": {
+        "title": "Assignment"
+      },
+      "dueDate": "Due Date",
+      "dueDay": "Due Day",
+      "status": "Status",
+      "createdAt": "Created At",
+      "createdBy": "Created By",
+      "morningSession": "Morning Session",
+      "task": "Task",
+      "user": "User",
+      "help": {
+        "dueDate": "fieldName"
+      }
+    }
+  }
+}

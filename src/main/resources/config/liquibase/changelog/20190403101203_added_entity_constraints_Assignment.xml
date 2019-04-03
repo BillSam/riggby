@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Assignment.
+    -->
+    <changeSet id="20190403101203-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="morning_session_id"
+                                 baseTableName="assignment"
+                                 constraintName="fk_assignment_morning_session_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="morning_sessions"/>
+
+        <addForeignKeyConstraint baseColumnNames="task_id"
+                                 baseTableName="assignment"
+                                 constraintName="fk_assignment_task_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="task"/>
+
+        <addForeignKeyConstraint baseColumnNames="assignment_id"
+                                 baseTableName="assignment_user"
+                                 constraintName="fk_assignment_user_assignment_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="assignment"/>
+        <addForeignKeyConstraint baseColumnNames="user_id"
+                                 baseTableName="assignment_user"
+                                 constraintName="fk_assignment_user_user_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="jhi_user"/>
+        
+    </changeSet>
+</databaseChangeLog>

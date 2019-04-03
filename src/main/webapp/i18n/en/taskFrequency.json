@@ -1,0 +1,10 @@
+{
+  "riggbyApp": {
+    "TaskFrequency": {
+      "null": "",
+      "MONTHLY": "MONTHLY",
+      "YEARLY": "YEARLY",
+      "DAILY": "DAILY"
+    }
+  }
+}

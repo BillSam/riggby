@@ -1,0 +1,29 @@
+{
+  "riggbyApp": {
+    "notifications": {
+      "home": {
+        "title": "Notifications",
+        "createLabel": "Créer un nouveau Notifications",
+        "createOrEditLabel": "Créer ou éditer un Notifications"
+      },
+      "created": "Un nouveau Notifications a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Notifications avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Notifications avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Notifications {{ id }} ?"
+      },
+      "detail": {
+        "title": "Notifications"
+      },
+      "title": "Title",
+      "body": "Body",
+      "createdBy": "Created By",
+      "createdAt": "Created At",
+      "attachment": "Attachment",
+      "status": "Status",
+      "targetGroup": "Target Group",
+      "user": "User",
+      "comment": "Comment"
+    }
+  }
+}

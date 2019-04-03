@@ -1,0 +1,9 @@
+{
+  "riggbyApp": {
+    "EventCategory": {
+      "null": "",
+      "INTERNAL": "INTERNAL",
+      "EXTERNAL": "EXTERNAL"
+    }
+  }
+}

@@ -38,6 +38,18 @@ public class CacheConfiguration {
             cm.createCache(io.rigbby.developer.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(io.rigbby.developer.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(io.rigbby.developer.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.Assignment.class.getName(), jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.Assignment.class.getName() + ".users", jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.Task.class.getName(), jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.MorningSessions.class.getName(), jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.Notifications.class.getName(), jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.Notifications.class.getName() + ".comments", jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.EventType.class.getName(), jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.EventType.class.getName() + ".events", jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.Event.class.getName(), jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.Event.class.getName() + ".comments", jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.Profile.class.getName(), jcacheConfiguration);
+            cm.createCache(io.rigbby.developer.domain.Comment.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
